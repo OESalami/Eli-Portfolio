@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>EliDev Portfolio</title>
+</head>
+<body>
+        
+<!--TEXT-LOADER-->
+<div class="loader">
+	<div class="title">
+		<h1>ELIDEV</h1>
+	</div>
+	<div class="ghost">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</div>
+
+<!-- MAIN CONTENT OF THE WEBPAGE @ELI-DEV -->
+<div class="main-content">
+
+    <!-- Desktop Navbar -->
+    <div class="navbar">
+        <div class="logo">Eli<span>Dev</span></div>
+        <div class="nav-links">
+            <ul>
+                <li onclick="location.href='#about'">About</li>
+                <li onclick="location.href='#skill'">Skill</li>
+                <li onclick="location.href='#projects'">Projects</li>
+                <li onclick="location.href='#contact'">Contact</li>
+            </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+            &#9776; <!-- This is the hamburger icon -->
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li onclick="location.href='#about'">About</li>
+            <li onclick="location.href='#skill'">Skill</li>
+            <li onclick="location.href='#projects'">Projects</li>
+            <li onclick="location.href='#contact'">Contact</li>
+        </ul>
+    </div>
+
+    <!-- SECTIONS -->
+    <section id="profile">
+        <div class="profile-container">
+            <div class="profile-picture">
+                <img src="./images/profile.jpg" alt="EliDev profile picture">
+            </div>
+            <div class="profile-info">
+                <div class="info">
+                    <p class="intro">Hello World,</p>
+                    <h3 class="name">I'm EliDev</h3>
+                    <h3 class="career">Frontend Developer</h3>
+                </div>
+
+                <div class="social-links">
+                    <i class="fa fa-github" aria-hidden="true" onclick="location.href='https://github.com/OESalami'"></i>
+                    <i class="fa fa-instagram" aria-hidden="true" onclick="location.href='https://www.instagram.com/elidevelopers/'"></i>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-intro appear">
+            <p>Get To Know More</p>
+            <h3>About Me</h3>
+        </div>
+        <div class="profile-container about-container">
+            <div class="about appear">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed magnam incidunt saepe nisi quia quo reiciendis, ex non accusantium autem at hic sint, nam adipisci. Aperiam eligendi rem porro!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut debitis minima fugiat dolores exercitationem eveniet deserunt qui inventore autem deleniti, nisi reprehenderit voluptatibus soluta totam. </p>
+
+                <button onclick="location.href='#contact'">Contact Me</button>
+            </div>
+            <div class="about-picture bottom">
+                <img src="./images/about-profile.jpg" alt="about profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="about-intro skill-intro appear">
+            <p>Get To Know</p>
+            <h3>My Skills</h3>
+        </div>
+        <div class="profile-container skill-container">
+            <div class="skill details-container bottom">
+                <h1 class="skill-sub-title">Frontend Development</h1>
+
+            <li><h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+    
+            <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+
+            <li><h3>Javascript</h3>
+                <span class="bar"><span class="js"></span></span>
+            </li>
+
+            <li><h3>React</h3>
+                <span class="bar"><span class="react"></span></span>
+            </li>
+            </div>
+
+            <div class="skill details-container right">
+                <h1 class="skill-sub-title">Backend Development</h1>
+
+            <li><h3>Python</h3>
+                <span class="bar"><span class="python react"></span></span>
+            </li>
+    
+            <li><h3>PHP</h3>
+                <span class="bar"><span class="php react"></span></span>
+            </li>
+
+            <li><h3>Nodejs</h3>
+                <span class="bar"><span class="nodejs react"></span></span>
+            </li>
+
+            <li><h3>Java</h3>
+                <span class="bar"><span class="java react"></span></span>
+            </li>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="about-intro right">
+            <p>Get to Know</p>
+            <h3>My Projects</h3>
+        </div>
+
+        <div class="projects">
+
+            <div class="sub-content top">
+                <div class="content-room">
+                    <div class="project-img">
+                        <img src="./images/password-generator.jpg" alt="Password Generator">
+                    </div>
+                       
+                        <div class="project-name">
+                            <h4>Password Generator</h4>
+                            <button><a href="./projects/Password Generator/password.html">Open</a></button>
+                        </div>
+                </div>
+            </div>
+            <div class="sub-content appear">
+                <div class="content-room">
+                    <div class="project-img">
+                        <img src="./images/rps.jpg" alt="Password Generator">
+                        </div>
+                       
+                        <div class="project-name">
+                            <h4>Rock Paper Scissors Game</h4>
+                            <button><a href="./projects/RPS Game/rps.html">Open</a></button>
+                        </div>
+                </div>
+            </div>
+            <div class="sub-content appear">
+                <div class="content-room">
+                    <div class="project-img">
+                        <img src="./images/timer.png" alt="Password Generator">
+                        </div>
+                       
+                        <div class="project-name">
+                            <h4>Countdown Timer</h4>
+                            <button><a href="./projects/Countdown Timer/timer.html">Open</a></button>
+                        </div>
+                </div>
+            </div>
+            <div class="sub-content right">
+                <div class="content-room">
+                    <div class="project-img">
+                        <img src="./images/quote-generator.png" alt="Password Generator">
+                        </div>
+                       
+                        <div class="project-name">
+                            <h4>Quote Generator</h4>
+                            <button><a href="./projects/Quote Generator/quote.html">Open</a></button>
+                        </div>
+                </div>
+            </div>
+            <div class="sub-content appear">
+                <div class="content-room">
+                    <div class="project-img">
+                        <img src="./images/todo-list.png" alt="Password Generator">
+                        </div>
+                       
+                        <div class="project-name">
+                            <h4>To-Do List</h4>
+                            <button><a href="./projects/To-Do List/todo.html">Open</a></button>
+                        </div>
+                </div>
+            </div>
+            <div class="sub-content bottom">
+                <div class="content-room">
+                    <div class="project-img">
+                        <img src="./images/calculator.jpg" alt="Password Generator">
+                        </div>
+                       
+                        <div class="project-name">
+                            <h4>Calculator</h4>
+                            <button><a href="./projects/Calculator/calculator.html">Calculator</a></button>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="about-intro top">
+            <p>Get In Touch</p>
+            <h3>Contact Me</h3>
+        </div>
+
+        <div class="contact-details-container">
+            <form class="contact bottom" action="https://api.web3forms.com/submit" method="POST">
+    
+                <input type="hidden" name="access_key" value="a9ea7879-c34d-42ee-8699-3dd0216bbf46">
+    
+                <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-input">
+                <textarea name="Message" class="textarea contact-input" placeholder="Your Message..."></textarea>
+
+                <div class="contact-btn">
+                    <button  type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-icons social-links">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <p>&copy; 2024. @eliDev All rights reserved.</p>
+    </footer>
+
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

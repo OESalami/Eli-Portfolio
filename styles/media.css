@@ -1,0 +1,219 @@
+
+/* LOADER */
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 15vmin; /* Adjust font size for mobile devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .title h1 {
+        font-size: 10vmin; /* Further adjust font size for smaller screens */
+    }
+}
+
+
+/* HAMBURGER MENU FOR MOBILE */
+
+.hamburger {
+    display: none; /* Hide hamburger by default */
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide desktop links */
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger icon */
+    }
+
+    .mobile-menu {
+        display: none; /* Hide mobile menu by default */
+        background-color: #333;
+        position: absolute;
+        top: 60px; /* Adjust based on your navbar height */
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .mobile-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        user-select: none;
+    }
+
+    .mobile-menu li {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #444;
+        color: white;
+        font-weight: 500;
+        font-family:  "Poppins", serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        user-select: none;
+    }
+
+    .mobile-menu li:hover {
+        background-color: #444;
+    }
+
+    #profile {
+        padding-left: 2rem; /* Reduce padding for mobile */
+    }
+
+    .profile-container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        gap: 2rem; /* Reduce gap between elements */
+        padding-top: 2rem;
+    }
+
+    .profile-picture img {
+        width: 15rem; /* Smaller profile picture */
+        height: 15rem; /* Smaller profile picture */
+    }
+
+    .profile-info {
+        padding-top: 1rem; /* Reduce padding for mobile */
+        text-align: center; /* Center text */
+    }
+
+    .profile-info .info {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+
+    .info .name {
+        font-size: 3rem; /* Smaller name font size */
+    }
+
+    .info .career {
+        font-size: 2rem; /* Smaller career font size */
+    }
+
+    .social-links .fa {
+        font-size: 2rem; /* Smaller social icon size */
+    }
+
+    .about-container {
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .about {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .about-intro h3 {
+        font-size: 2rem;
+    }
+
+    .about-intro p {
+        font-size: 0.9rem;
+    }
+
+    .about-picture {
+        width: 23rem;
+        height: 25rem;
+    }
+
+    .about-picture img {
+        width: 20rem;
+        height: 22rem;
+    }
+
+    .about button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .skill {
+        width: 90%; /* Make skill boxes narrower on mobile */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .skill-sub-title {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+
+    .bar {
+        height: 15px; /* Adjust bar height for mobile */
+    }
+
+    .bar span {
+        height: 15px; /* Adjust span height for mobile */
+    }
+
+    /* PROJECTS */
+    .projects {
+        padding-left: 6rem;
+    }
+
+    /* CONTACTS */
+    form {
+        width: 90%; /* Increase width for mobile */
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .contact {
+        gap: 1rem; /* Reduce gap between elements */
+    }
+
+    .contact-input,
+    .contact textarea {
+        font-size: 14px; /* Smaller font size */
+    }
+
+    .contact-btn {
+        padding-left: 0; /* Center button */
+        justify-content: center; /* Center button */
+    }
+
+    .contact-btn button {
+        padding: 10px 20px; /* Smaller button padding */
+        font-size: 14px; /* Smaller font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-intro h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-intro p {
+        font-size: 0.8rem;
+    }
+
+    .about button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    /* CONTACT */
+    .contact-input,
+    .contact textarea {
+        height: 50px; /* Smaller input height */
+    }
+
+    .contact textarea {
+        height: 100px; /* Smaller textarea height */
+    }
+
+    .contact-btn button {
+        padding: 10px 15px; /* Further reduce button padding */
+        font-size: 12px; /* Smaller font size */
+    }
+}
+    
+

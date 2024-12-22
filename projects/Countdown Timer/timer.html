@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timer.css">
+    <title>Eli-Countdown Timer</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Eli-Countdown Timer</h2>
+
+        <!-- <div class="display">
+            <h3>d:</h3><span class="day"></span>
+            <h3>h:</h3><span class="hour"></span>
+            <h3>m:</h3><span class="min"></span>
+            <h3>s:</h3><span class="sec"></span>
+        </div> -->
+
+        <!-- <div class="input-container">
+            <label for="hours">hrs:</label>
+            <input type="number" id="hours" min="0" value="0">
+            <label for="minutes">mins:</label>
+            <input type="number" id="minutes" min="0" value="0">
+            <label for="seconds">sec:</label>
+            <input type="number" id="seconds" min="0" value="0">
+        </div> -->
+
+        <div class="input-container">
+            <div class="input-group">
+                <label for="hours">hrs:</label>
+                <input type="number" id="hours" min="0" value="0">
+            </div>
+            <div class="input-group">
+                <label for="minutes">mins:</label>
+                <input type="number" id="minutes" min="0" value="0">
+            </div>
+            <div class="input-group">
+                <label for="seconds">sec:</label>
+                <input type="number" id="seconds" min="0" value="0">
+            </div>
+        </div>
+    
+
+
+        <div class="btn-container">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="timer.js"></script>
+</body>
+</html>

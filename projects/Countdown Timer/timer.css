@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(245, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 30px;
+    border-radius: 10px;border-radius: 10px;
+    border-radius: 17px;
+    background: #ede9e9;
+    box-shadow:  7px 7px 14px #d1cdcd,
+                -7px -7px 14px #ffffff;
+}
+
+.container h2{
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(190, 184, 184);
+    font-size: 26px;
+}
+/* }
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    line-height: 40px;
+    color: rgb(190, 184, 184);
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.input-container input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px #cecbcb,
+                inset -2px -2px 5px #ffffff;
+    font-size: 16px;
+}  */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold; 
+    color:  rgb(190, 184, 184);;
+}
+
+.input-group input {
+    width: 70px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    background: #eee8e8;
+    color: #868d8f;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 1.5rem; /* Add some padding to the input fields */
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px #cecbcb,
+                inset -2px -2px 5px #ffffff;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #d5d2d2, #fef9f9);
+    box-shadow:  10px 10px 15px #cecbcb,
+                 -10px -10px 15px #ffffff;
+}
+
+button:hover:active{
+    color: white;
+    background: #868d8f;
+}

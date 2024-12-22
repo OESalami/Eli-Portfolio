@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(245, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    padding-top: 30px;
+    padding: 30px;
+    border-radius: 10px;border-radius: 10px;
+    border-radius: 17px;
+    background: #ede9e9;
+    box-shadow:  7px 7px 14px #d1cdcd,
+                -7px -7px 14px #ffffff;
+}
+
+.container h2{
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(190, 184, 184);
+    font-size: 26px;
+}
+
+#quote{
+    padding: 40px;
+    color: #626566;
+    margin-bottom: 40px;
+    font-size: 20px;
+    height: 40vh;
+    width: 400px;
+    border: none;
+    text-wrap: wrap;
+    outline: none;
+    border-radius: 10px;
+    background: #ede9e9;
+    box-shadow: inset 10px 10px 15px #cecbcb,
+                inset -10px -10px 15px #ffffff;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #d5d2d2, #fef9f9);
+    box-shadow:  10px 10px 15px #cecbcb,
+                 -10px -10px 15px #ffffff;
+}
+
+button:hover{
+    background: #868d8f;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 500px) {
+    .container {
+        padding: 20px;
+        width: 400px;
+    }
+
+    .container h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    #quote {
+        padding: 20px;
+        font-size: 18px;
+        width: 100%; /* Full width on mobile */
+        height: 12rem; /* Adjust height */
+    }
+
+    .btn-container {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center buttons */
+    }
+
+    button {
+        width: 100%; /* Full width buttons */
+        margin-bottom: 10px; /* Space between buttons */
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 15px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    #quote {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px 15px; /* Smaller button padding */
+    }
+}

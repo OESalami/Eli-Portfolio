@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>EliCalculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display" id="input">
+                </div>
+                <div>
+                    <input type="button" value="AC" class="clear-btn" onclick="clearAll();">
+                    <input type="button" value="DE" class="clear-btn" onclick="clearSingle();">
+                    <input type="button" value="(" class="operator" onclick="render('(');">
+                    <input type="button" value=")" class="operator" onclick="render(')');">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="render('7');">
+                    <input type="button" value="8" onclick="render('8');">
+                    <input type="button" value="9" onclick="render('9');">
+                    <input type="button" value="/" class="operator" onclick="render('/');">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="render('4');">
+                    <input type="button" value="5" onclick="render('5');">
+                    <input type="button" value="6" onclick="render('6');">
+                    <input type="button" value="-" class="operator" onclick="render('-');">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="render('1');">
+                    <input type="button" value="2" onclick="render('2');">
+                    <input type="button" value="3" onclick="render('3');">
+                    <input type="button" value="*" class="operator" onclick="render('*');">
+                </div>
+                <div>
+                    <input type="button" value="." class="operator" onclick="render('.')">
+                    <input type="button" value="0" onclick="render('0');">
+                    <input type="button" value="+" class="operator" onclick="render('+');">
+                    <input type="button" value="=" class="operator" onclick="finalAnswer();">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
