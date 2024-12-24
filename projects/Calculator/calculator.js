@@ -1,3 +1,9 @@
+// LOADER
+setTimeout( () => {
+    const loader = document.getElementById('loader').style.display = 'none';
+    const main = document.getElementById('main').style.display = 'block'; 
+}, 3000);
+
 
 const display = document.getElementById("input");
 

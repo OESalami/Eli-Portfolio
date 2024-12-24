@@ -2,7 +2,7 @@
 /* LOADER */
 @media (max-width: 768px) {
     .title h1 {
-        font-size: 15vmin; /* Adjust font size for mobile devices */
+        font-size: 15vmin;
     }
 }
 
@@ -157,7 +157,7 @@
 
     /* PROJECTS */
     .projects {
-        padding-left: 6rem;
+        padding-left: 4rem;
     }
 
     /* CONTACTS */

@@ -1,3 +1,10 @@
+// LOADER
+setTimeout( () => {
+    const loader = document.getElementById('loader').style.display = 'none';
+    const main = document.getElementById('main').style.display = 'block'; 
+}, 3000);
+
+
 // Let's define our variables
 const quoteElement = document.getElementById('quote');
 const generateButton = document.getElementById('generate');

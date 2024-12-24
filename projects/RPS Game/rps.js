@@ -1,3 +1,9 @@
+ // LOADER
+setTimeout( () => {
+    const loader = document.getElementById('loader').style.display = 'none';
+    const main = document.getElementById('main').style.display = 'block'; 
+}, 3000);
+ 
  // DOM elements
  const playerScore = document.getElementById('player-score');
  const computerScore = document.getElementById('computer-score');

@@ -1,4 +1,12 @@
-  // Get references to DOM elements
+ // LOADER
+setTimeout( () => {
+    const loader = document.getElementById('loader').style.display = 'none';
+    const main = document.getElementById('main').style.display = 'block'; 
+}, 3000);
+
+ 
+ 
+ // Get references to DOM elements
   const todoInput = document.getElementById("todo-input");
   const addButton = document.getElementById("add-btn");
   const todoList = document.getElementById("todo-list");

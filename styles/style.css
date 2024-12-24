@@ -115,7 +115,7 @@
 /* MAIN PAGE BEGINS HERE */
 
 .navbar{
-    background: transparent;
+    background: #131212;
     backdrop-filter: blur(40px);
     color: white;
     font-family: sans-serif;
@@ -124,7 +124,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
     z-index: 1000;
 }
 
